@@ -9,7 +9,7 @@ BSA Troop 90 was founded in **1939** and has been continuously chartered by the 
 
 ## Our Mission
 
-We follow the mission of the Boy Scouts of America: to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law. Troop 90 pursues that mission through weekly meetings, year-round camping, community service, and merit badge achievement.
+We follow the mission of the Scouting America: to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law. Troop 90 pursues that mission through weekly meetings, year-round camping, community service, and merit badge achievement.
 
 ## Charter Organization
 

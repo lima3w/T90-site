@@ -1,5 +1,6 @@
 {{ $image := .Params.hero_image | default "/images/hero-placeholder.jpg" }}
-<section class="hero" style="background-image: url('{{ $image }}');">
+<section class="hero">
+  <img class="hero-bg" src="{{ $image }}" alt="">
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <h1 class="hero-title">{{ .Params.hero_title | default "Troop 90" }}</h1>
