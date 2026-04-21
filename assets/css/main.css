@@ -166,6 +166,58 @@ address { font-style: normal; }
   border-bottom-color: var(--bsa-red);
 }
 
+.dropdown-caret {
+  margin-left: 0.25rem;
+  font-size: 0.7em;
+  vertical-align: middle;
+}
+
+/* --- Dropdowns (desktop) --- */
+.nav-item { position: relative; }
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 180px;
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-top: 2px solid var(--bsa-red);
+  border-radius: 0 0 var(--radius) var(--radius);
+  box-shadow: var(--shadow-md);
+  list-style: none;
+  z-index: 200;
+  padding: 0.35rem 0;
+}
+
+.has-dropdown:hover > .dropdown,
+.has-dropdown:focus-within > .dropdown { display: block; }
+
+.dropdown-item { position: relative; }
+
+.dropdown-link {
+  display: block;
+  padding: 0.55rem 1rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--bsa-navy);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background var(--transition), color var(--transition);
+}
+.dropdown-link:hover { background: var(--gray-100); color: var(--bsa-red); text-decoration: none; }
+.dropdown-link.active { color: var(--bsa-red); }
+
+/* Second-level (nested) dropdown — flies out to the right */
+.dropdown-nested {
+  top: 0;
+  left: 100%;
+  border-top: 2px solid var(--bsa-red);
+}
+
 /* =========================================================
    HERO
    ========================================================= */
@@ -371,6 +423,62 @@ address { font-style: normal; }
 .section-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-2px); text-decoration: none; }
 .section-card-title { font-size: 1.1rem; font-weight: 700; color: var(--bsa-navy); margin-bottom: 0.4rem; }
 
+/* Documents */
+.doc-sections { display: flex; flex-direction: column; gap: 2.5rem; margin-top: 2rem; }
+
+.doc-category-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--bsa-navy);
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--bsa-red);
+  margin-bottom: 0.75rem;
+}
+.doc-category-desc { font-size: 0.9rem; color: var(--gray-600); margin-bottom: 0.75rem; }
+
+.doc-list { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+
+.doc-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 1rem;
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--transition);
+}
+.doc-item:hover { box-shadow: var(--shadow-md); }
+
+.doc-info { display: flex; flex-direction: column; gap: 0.15rem; min-width: 0; }
+.doc-name { font-weight: 600; color: var(--bsa-navy); }
+.doc-desc { font-size: 0.85rem; color: var(--gray-600); }
+
+.doc-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-shrink: 0;
+  padding: 0.4rem 0.9rem;
+  background: var(--bsa-navy);
+  color: var(--white);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: background var(--transition);
+}
+.doc-link:hover { background: var(--bsa-red); color: var(--white); text-decoration: none; }
+.doc-link svg { width: 1em; height: 1em; }
+.doc-link-external { background: var(--bsa-blue); }
+.doc-link-external:hover { background: var(--bsa-red); }
+
+.doc-empty { font-size: 0.9rem; color: var(--gray-600); font-style: italic; }
+
 /* Contact cards */
 .contact-cards {
   display: grid;
@@ -459,6 +567,31 @@ address { font-style: normal; }
     border-left: 3px solid transparent;
   }
   .nav-link.active { border-left-color: var(--bsa-red); border-bottom-color: transparent; }
+
+  /* Mobile dropdowns — stack inline instead of floating */
+  .dropdown {
+    display: none;
+    position: static;
+    border: none;
+    border-top: none;
+    border-radius: 0;
+    box-shadow: none;
+    background: var(--gray-100);
+    padding: 0;
+  }
+  .dropdown-nested {
+    background: var(--gray-200);
+  }
+  .has-dropdown.open > .dropdown { display: block; }
+  .dropdown-link {
+    padding: 0.75rem 1.25rem 0.75rem 2rem;
+    border-bottom: 1px solid var(--gray-200);
+    text-transform: uppercase;
+  }
+  .dropdown-nested .dropdown-link {
+    padding-left: 3rem;
+  }
+  .dropdown-caret { float: right; }
 
   .hero { min-height: 280px; }
   .hero-title { font-size: 2.5rem; }

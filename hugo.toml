@@ -1,5 +1,4 @@
 baseURL = "/"
-relativeURLs = true
 languageCode = "en-us"
 title = "Troop 90 - Centralia, MO"
 
@@ -20,7 +19,24 @@ title = "Troop 90 - Centralia, MO"
   [[menu.main]]
     name = "Resources"
     url = "/resources/"
+    identifier = "resources"
     weight = 3
+  [[menu.main]]
+    name = "Camping"
+    url = "/camping/"
+    identifier = "camping"
+    parent = "resources"
+    weight = 1
+  [[menu.main]]
+    name = "Summer Camping"
+    url = "/camping/summer/"
+    parent = "camping"
+    weight = 1
+  [[menu.main]]
+    name = "Winter Camping"
+    url = "/camping/winter/"
+    parent = "camping"
+    weight = 2
   [[menu.main]]
     name = "Contact Us"
     url = "/contact/"

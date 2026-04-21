@@ -14,7 +14,7 @@ Joining is easy. Here's how it works:
 1. **Visit a meeting.** Come to any Tuesday meeting as a guest — no commitment required. See what we do and meet our Scouts and leaders.
 2. **Complete a BSA application.** Applications are available at meetings or through our Scoutmaster.
 3. **Pay annual dues.** Our troop collects dues that cover registration and program materials.
-4. **Get your uniform.** The BSA tan uniform shirt is required. The troop neckerchief and other items will be provided or available for purchase.
+4. **Get your uniform.** The BSA tan uniform shirt is required.
 
 ## Meeting Times
 
@@ -24,6 +24,7 @@ Joining is easy. Here's how it works:
 ## Contact Us
 
 Ready to visit or have questions? Reach out to Scoutmaster **Zack Lewis**:
+
 - Email: [scoutmaster@lima3.me](mailto:scoutmaster@lima3.me)
 - Phone: 573.682.0886
 
