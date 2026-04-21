@@ -1,0 +1,62 @@
+{{ define "main" }}
+{{ partial "hero.html" . }}
+
+<div class="container home-body">
+
+  <section class="home-section">
+    <h2>Welcome to Troop 90</h2>
+    <p>BSA Troop 90 has served the youth of Centralia, Missouri since 1939, chartered by the Centralia Rotary Club. Over our history we have produced more than 120 Eagle Scouts. We meet weekly and run a full year of camping, service projects, merit badge work, and high-adventure activities.</p>
+    <div class="cta-group">
+      <a class="btn btn-primary" href="/join/">Join Our Troop</a>
+      <a class="btn btn-outline" href="/contact/">Contact Us</a>
+    </div>
+  </section>
+
+  <section class="home-section meetings-section">
+    <h2>Meetings</h2>
+    <div class="meeting-cards">
+      <div class="meeting-card">
+        <h3>Winter <span class="meeting-season">(October–May)</span></h3>
+        <address>
+          First Christian Church<br>
+          <a href="https://maps.google.com/?q=229+S+Rollins+St,+Centralia,+MO+65240" target="_blank" rel="noopener">229 S Rollins St, Centralia, MO 65240</a>
+        </address>
+        <p class="meeting-time">Tuesdays &bull; 6:30&nbsp;pm – 8:00&nbsp;pm</p>
+      </div>
+      <div class="meeting-card">
+        <h3>Summer <span class="meeting-season">(June–September)</span></h3>
+        <address>
+          Centralia City Park, North Shelter<br>
+          <a href="https://maps.google.com/?q=Head+St,+Centralia,+MO+65240" target="_blank" rel="noopener">Head St, Centralia, MO 65240</a>
+        </address>
+        <p class="meeting-time">Tuesdays &bull; 6:30&nbsp;pm – 8:30&nbsp;pm</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-section highlights-section">
+    <h2>What We Do</h2>
+    <div class="highlight-cards">
+      <div class="highlight-card">
+        <div class="highlight-icon">&#127958;</div>
+        <h3>Camping &amp; Outdoors</h3>
+        <p>Year-round camping trips build outdoor skills, confidence, and resilience.</p>
+        <a href="/camping/">Learn more</a>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">&#127775;</div>
+        <h3>Merit Badges</h3>
+        <p>Scouts earn merit badges spanning dozens of disciplines, from first aid to STEM.</p>
+        <a href="/resources/">Resources</a>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">&#129309;</div>
+        <h3>Service Projects</h3>
+        <p>Eagle Scout service projects and community service are cornerstones of Troop 90.</p>
+        <a href="/about/">About us</a>
+      </div>
+    </div>
+  </section>
+
+</div>
+{{ end }}

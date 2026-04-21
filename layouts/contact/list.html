@@ -1,0 +1,36 @@
+{{ define "main" }}
+<article class="page-content container">
+  <header class="page-header">
+    <h1 class="page-title">{{ .Title }}</h1>
+  </header>
+  <div class="prose">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.contacts }}
+  <div class="contact-cards">
+    {{ range . }}
+    <div class="contact-card">
+      <h3>{{ .role }}</h3>
+      <p class="contact-name">{{ .name }}</p>
+      <p><a href="mailto:{{ .email }}">{{ .email }}</a></p>
+      <p><a href="tel:{{ .phone | replaceRE `[^0-9]` `` | printf "+1%s" }}">{{ .phone }}</a></p>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <div class="prose" style="margin-top:2rem;">
+    <h2>Meeting Location</h2>
+    <p><strong>Winter (October–May)</strong><br>
+    First Christian Church<br>
+    <a href="https://maps.google.com/?q=229+S+Rollins+St,+Centralia,+MO+65240" target="_blank" rel="noopener">229 S Rollins St, Centralia, MO 65240</a><br>
+    Tuesdays, 6:30–8:00 pm</p>
+
+    <p><strong>Summer (June–September)</strong><br>
+    Centralia City Park, North Shelter<br>
+    <a href="https://maps.google.com/?q=Head+St,+Centralia,+MO+65240" target="_blank" rel="noopener">Head St, Centralia, MO 65240</a><br>
+    Tuesdays, 6:30–8:30 pm</p>
+  </div>
+</article>
+{{ end }}

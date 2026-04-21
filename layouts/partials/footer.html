@@ -1,0 +1,25 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h3 class="footer-heading">Troop 90</h3>
+      <p>Boy Scouts of America<br>Centralia, Missouri</p>
+      <p>Chartered by the <a href="https://centraliarotaryclub.com/" target="_blank" rel="noopener">Centralia Rotary Club</a></p>
+    </div>
+    <div class="footer-col">
+      <h3 class="footer-heading">Meetings</h3>
+      <p><strong>Winter (Oct–May)</strong><br>First Christian Church<br>229 S Rollins St, Centralia, MO<br>Tuesdays 6:30–8:00 pm</p>
+      <p><strong>Summer (Jun–Sep)</strong><br>Centralia City Park, North Shelter<br>Head St, Centralia, MO<br>Tuesdays 6:30–8:30 pm</p>
+    </div>
+    <div class="footer-col">
+      <h3 class="footer-heading">Quick Links</h3>
+      <ul class="footer-links">
+        {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; {{ now.Year }} BSA Troop 90, Centralia, MO. All rights reserved.</p>
+  </div>
+</footer>

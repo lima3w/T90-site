@@ -1,0 +1,42 @@
+baseURL = "https://troop90centraliamo.org/"
+languageCode = "en-us"
+title = "Troop 90 - Centralia, MO"
+
+[params]
+  description = "Boy Scouts of America Troop 90, Centralia, MO — building tomorrow's leaders since 1939."
+  meetingWinter = "First Christian Church, 229 S Rollins St — Tuesdays 6:30–8:00 pm (Oct–May)"
+  meetingSummer = "Centralia City Park, North Shelter, Head St — Tuesdays 6:30–8:30 pm (Jun–Sep)"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Calendar"
+    url = "/calendar/"
+    weight = 2
+  [[menu.main]]
+    name = "Resources"
+    url = "/resources/"
+    weight = 3
+  [[menu.main]]
+    name = "Contact Us"
+    url = "/contact/"
+    weight = 4
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 5
+  [[menu.main]]
+    name = "Leadership"
+    url = "/leadership/"
+    weight = 6
+  [[menu.main]]
+    name = "Join"
+    url = "/join/"
+    weight = 7
+  [[menu.main]]
+    name = "Documents"
+    url = "/documents/"
+    weight = 8
