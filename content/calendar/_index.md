@@ -14,4 +14,4 @@ Our troop meets every Tuesday — see the meeting location schedule below. Addit
 - **Winter (October–May):** First Christian Church, 229 S Rollins St, Centralia, MO — Tuesdays 6:30–8:00 pm
 - **Summer (June–September):** Centralia City Park, North Shelter, Head St, Centralia, MO — Tuesdays 6:30–8:30 pm
 
-Contact [Scoutmaster Zack Lewis](mailto:scoutmaster@lima3.me) or check back here for upcoming campouts and special events.
+Contact [Scoutmaster Zack Lewis](mailto:scoutmaster@troop90centraliamo.org) or check back here for upcoming campouts and special events.

@@ -25,7 +25,7 @@ Joining is easy. Here's how it works:
 
 Ready to visit or have questions? Reach out to Scoutmaster **Zack Lewis**:
 
-- Email: [scoutmaster@lima3.me](mailto:scoutmaster@lima3.me)
+- Email: [scoutmaster@troop90centraliamo.org](mailto:scoutmaster@troop90centraliamo.org)
 - Phone: 573.682.0886
 
 <!-- TODO: Add parent information night dates, unit dues amount, and any current recruitment incentives -->
