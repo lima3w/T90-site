@@ -10,7 +10,7 @@ Troop 90 is run by a dedicated group of volunteer adult leaders committed to the
 ### Scoutmaster
 
 **Zack Lewis**
-[scoutmaster@lima3.me](mailto:scoutmaster@lima3.me) · 573.682.0886
+[scoutmaster@troop90centraliamo.org](mailto:scoutmaster@troop90centraliamo.org) · 573.682.0886
 
 ### Committee Chair
 

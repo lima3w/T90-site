@@ -12,7 +12,7 @@ contacts:
     phone: "573.682.4668"
   - role: "Scoutmaster"
     name: "Zack Lewis"
-    email: "scoutmaster@lima3.me"
+    email: "scoutmaster@troop90centraliamo.org"
     phone: "573.682.0886"
 ---
 
