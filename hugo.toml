@@ -1,7 +1,8 @@
-baseURL = "/"
+baseURL = "https://troop90centraliamo.org/"
 relativeURLs = true
 languageCode = "en-us"
 title = "Troop 90 - Centralia, MO"
+disableKinds = ["taxonomy", "term"]
 
 [params]
   description = "Scouting America Troop 90, Centralia, MO — building tomorrow's leaders since 1939."
